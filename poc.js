@@ -22,21 +22,3 @@ var bigArgFunc = new Function(argsList, body);
 
 // Call many times to trigger OSR in v8 maglev
 for (var i = 0; i < 1e5; i++) bigArgFunc(0);
-
-// Create large argument function dynamically
-var bigArgFunc1 = new Function(argsList, body);
-
-// Call many times to trigger OSR in v8 maglev
-for (var i = 0; i < 1e5; i++) bigArgFunc1(0);
-
-// Create large argument function dynamically
-var bigArgFunc2 = new Function(argsList, body);
-
-// Call many times to trigger OSR in v8 maglev
-for (var i = 0; i < 1e5; i++) bigArgFunc2(0);
-
-// Create large argument function dynamically
-var bigArgFunc3 = new Function(argsList, body);
-
-// Call many times to trigger OSR in v8 maglev
-for (var i = 0; i < 1e5; i++) bigArgFunc3(0);
