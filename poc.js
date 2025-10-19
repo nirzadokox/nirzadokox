@@ -7,7 +7,7 @@ function g(
 }
 
 
-var num_args = 40000; // large number to cause overflow
+var num_args = 40000*400; // large number to cause overflow
 
 // Construct argument list string
 var argsList = "";
